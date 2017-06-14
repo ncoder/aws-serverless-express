@@ -18,15 +18,7 @@
   "files": [
     "index.js",
     "middleware.js",
-    "index.d.ts",
-    "node_modules/@types/aws-lambda",
-    "node_modules/@types/aws-lambda/index.d.ts",
-    "node_modules/@types/aws-lambda/package.json",
-    "node_modules/@types/aws-lambda/README.md",
-    "node_modules/@types/aws-serverless-express",
-    "node_modules/@types/aws-serverless-express/middleware.d.ts",
-    "node_modules/@types/aws-serverless-express/package.json",
-    "node_modules/@types/aws-serverless-express/README.md"    
+    "index.d.ts"
   ],
   "main": "index.js",
   "repository": {
@@ -37,6 +29,7 @@
     "node": ">=4"
   },
   "devDependencies": {
+    "@types/aws-lambda": "git+ssh://git@github.com/ncoder/aws-lambda-types.git",
     "jest": "^16.0.2"
   },
   "scripts": {
