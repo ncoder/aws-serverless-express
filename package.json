@@ -17,7 +17,8 @@
   "license": "Apache-2.0",
   "files": [
     "index.js",
-    "middleware.js"
+    "middleware.js",
+    "index.d.ts"
   ],
   "main": "index.js",
   "repository": {
@@ -34,6 +35,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/aws-lambda": "git+ssh://git@github.com/ncoder/aws-lambda-types.git",
     "binary-case": "^1.0.0"
   }
 }
