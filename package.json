@@ -29,13 +29,13 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "@types/aws-lambda": "git+ssh://git@github.com/ncoder/aws-lambda-types.git",
     "jest": "^16.0.2"
   },
   "scripts": {
     "test": "jest"
   },
   "dependencies": {
+    "@types/aws-lambda": "git+ssh://git@github.com/ncoder/aws-lambda-types.git",
     "binary-case": "^1.0.0"
   }
 }
