@@ -35,7 +35,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@types/aws-lambda": "git+ssh://git@github.com/ncoder/aws-lambda-types.git",
+    "@types/aws-lambda": "https://github.com/ncoder/aws-lambda-types.git#master",
     "binary-case": "^1.0.0"
   }
 }
